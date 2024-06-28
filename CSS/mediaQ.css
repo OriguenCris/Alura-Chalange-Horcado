@@ -4,6 +4,10 @@
     .containerRwap{
         flex-direction: column;
     }
+    img{
+        width: 50%;
+        height: 90%;
+    }
     .apareceHorca{
         width: 100%;
     }
@@ -20,10 +24,10 @@
         align-content: center;
     }
     #teclado button {
-        font-size: medium;
+        font-size: x-large;
         width: auto;
         height: auto;
-        margin: 1px;
+        margin: 1.8px;
     }
     .btnContenedor {
         justify-content: flex-start;

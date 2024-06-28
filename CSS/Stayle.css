@@ -4,7 +4,7 @@
 
 }
 body,html{
-    width:100vw; 
+    width:100%; 
     height: 100vh;
     font-family:'Shadows Into Light Two', cursive;
     background-image: url(../Multimedia/hoja-papel.jfif);
@@ -32,26 +32,18 @@ footer{
     margin: 0.5rem;
 }
 
-.container{
-    margin: 20px auto;
-    height: 85vh;
-    width: 90vw;
-}
-
 /*estilos del index*/
-header .logoImg{
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    width: 120px;
-    height: 48px;
+header{
+    margin: 0.5rem;
+    height: 10%;
 
 }
-header .logoImg img{
-    left: 36.67%;
-    right: 37.43%;
-    top: 0%;
-    bottom: 0%;
+.logoImg img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 100px;
+    height: 40px;
 }
 .botonesHome{
     display: flex;
@@ -73,11 +65,11 @@ header .logoImg img{
     border: solid 2.8px  red;
     color:#41403E;
     cursor: pointer;
-    font-size:1.5rem;
+    font-size:1.3rem;
     letter-spacing:1px;
     margin:0.6rem;
     outline:none;
-    padding:1rem 1rem;
+    padding:0.5rem 0.5rem;
     transition:all .5s ease;
     text-decoration: none;
 }
@@ -177,18 +169,15 @@ form{
     border-color: red;
     cursor: pointer;
 }
-  
   .modal p {
     opacity: 0.8;
     font-size: 1.5rem;
  }
-
 .containerRwap{
+    align-items:center;
     display: flex;
+    justify-content: center;
     width: 100%;
-    height: 90%;
-    margin: 0px auto;
-    justify-content: space-between;
 }
 .containerJuego{
     width: 55%;
@@ -200,16 +189,10 @@ form{
     justify-content: flex-end;
     align-content: center;
 }
-.apareceHorca{
-    display: grid;
-    width: 45%;
-    height: 90%;
-    align-items: flex-end;
-    justify-content: center;
-}
-.apareceHorca img{
-    width: 100%;
-    height: 80%;
+
+ img{
+    width: 25%;
+    height: 60%;
 }
 #palabraSecreta{
     display: flex;
