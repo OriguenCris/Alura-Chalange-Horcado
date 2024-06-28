@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/Stayle.css">
+    <link rel="stylesheet" href="../CSS/mediaQ.css">
+    <title>Ahorcado Challenge Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoImg">
+            <img src="../Multimedia/logo.svg" alt="Logo Alura">
+        </div>
+    </header>
+<main> 
+    <div class="container">
+    <form action="">
+        <div class="texContenedor">
+            <input class="textoIng" type="text" id="textIngresado" name="textIngresado" maxlength="8" placeholder="Ingrese una palabra">
+            <div class="infoContenedor">
+                <span>Max 8 letras</span>
+            </div>
+        </div>
+        <div class="btnContenedor">
+            <a href="inicioJuego.html">
+                <button type="button" onclick="guardarPalabraLocal()" class="btn" id="guardarPalabraIn"> Guardar y Empezar</button>
+            </a>
+    
+            <a class="btn" id="btnCancelar" href="../index.html">
+                 Cancelar
+            </a>
+        </div>
+    </form>
+    </div>
+</main>
+<footer>
+    <div class="foot">
+     <Span> &#169;	 Cristian Origuen 2022</Span>
+    </div>
+    <div class="socialMedia">
+        <a  href="https://github.com/OriguenCristian/Proyecto-Ahorcado-Alura" target="_blank" class="gitHub"><img src="../Multimedia/gitHubPng.png" alt="Logo Github"></a>
+        <a href="https://www.linkedin.com/in/origuen-cristian/" target="_blank" class="linkd"><img src="../Multimedia/Linkedinpng.png" alt="Logo Linkedin"></a>
+
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+    
+</html>
